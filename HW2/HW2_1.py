@@ -23,14 +23,14 @@ z = np.rot90(np.fliplr(z))
 
 #plot 3d
 
-#fig = plt.figure()
+fig = plt.figure()
 ax = plt.axes(projection='3d')
 ax.contour3D(x, y, z, 100)
 ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_zlabel('z')
 ax.set_title('3D Contour')
-#plt.show()
+plt.show()
 
 #plot 2d contour with quiver
 
