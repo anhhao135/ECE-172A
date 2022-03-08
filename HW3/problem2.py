@@ -133,7 +133,7 @@ def meanFilter(inputImage, kernelSize): #input image is RGB
 
 
 
-'''
+
 
 
 image_ = image.imread('mural.jpg')
@@ -231,7 +231,6 @@ runFilters("mural_noise1.jpg", "mural_noise1")
 runFilters("mural_noise2.jpg", "mural_noise2")
 
 
-'''
 
 template = cv2.imread("template.jpg",0)
 mural = cv2.imread("mural.jpg",0)
